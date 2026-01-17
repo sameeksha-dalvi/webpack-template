@@ -13,8 +13,9 @@ After creating your repository using this template:
 
 ### 1. Clone your new repository
 
-git clone <your-new-repo-url>
-cd <your-new-repo-name>
+git clone https://github.com/your-username/your-new-project.git
+
+cd your-new-project
 
 ### 2. Install dependencies  
 
@@ -30,13 +31,14 @@ npm run build
 
 ---
 
+
 ## Project Structure
 
 .
 ├── src
-│   ├── index.js
-│   ├── style.css
-│   └── template.html
+│ ├── index.js
+│ ├── style.css
+│ └── template.html
 ├── .gitignore
 ├── README.md
 ├── package-lock.json
@@ -44,23 +46,22 @@ npm run build
 ├── webpack.common.js
 ├── webpack.dev.js
 └── webpack.prod.js
+---
+
+## Available Scripts
+
+Command       | Description  
+------------- | ---------------------------------------  
+npm start     | Starts webpack dev server and opens browser  
+npm run build | Creates optimized production build  
+npm test      | Placeholder (no tests configured)  
 
 ---
 
-## Available Scripts  
+## Start Building
 
-Command        Description  
-
-npm start       Starts webpack dev server and opens browser  
-npm run build   Creates optimized production build  
-npm test        Placeholder (no tests configured)  
+- Write your code in the `src/` folder  
+- Update `index.js`, `template.html`, and `style.css` as needed  
+- Add loaders or plugins in webpack config if required  
 
 ---
-
-## Start Building  
-
-Write your code in the src/ folder  
-
-Update index.js, template.html, style.css as needed  
-
-Add loaders or plugins in webpack config if required  
