@@ -34,18 +34,7 @@ npm run build
 
 ## Project Structure
 
-.
-├── src
-│ ├── index.js
-│ ├── style.css
-│ └── template.html
-├── .gitignore
-├── README.md
-├── package-lock.json
-├── package.json
-├── webpack.common.js
-├── webpack.dev.js
-└── webpack.prod.js
+<pre> ``` . ├── src │ ├── index.js │ ├── style.css │ └── template.html ├── .gitignore ├── README.md ├── package-lock.json ├── package.json ├── webpack.common.js ├── webpack.dev.js └── webpack.prod.js ``` </pre>
 ---
 
 ## Available Scripts
